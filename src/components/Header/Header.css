@@ -1,0 +1,22 @@
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav{
+    display:flex;
+    gap:20px;
+
+   
+}
+.nav li{
+    list-style-type:none;
+    
+}
+
+.logo{
+    align-self:center;
+    color:lightblue;
+}

@@ -1,0 +1,34 @@
+
+.MidContent{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    /* padding-left:4rem;
+    padding-right:4rem; */
+}
+
+.MoreTechnology{
+    display:flex;
+    justify-content:space-around;
+
+    margin-top:4rem;
+    gap:30px;
+}
+
+.MoreTechnology img{
+    width:100%;
+}
+
+.MoreTechnology > div {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+/* this is the projects area */
+
+
+.Projects{
+    text-align:center
+}

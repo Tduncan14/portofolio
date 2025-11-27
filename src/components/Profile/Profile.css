@@ -1,0 +1,61 @@
+/* Container for profile sections */
+.profile {
+    display: flex;
+    margin-top: 3rem;
+    gap: 30px;
+    overflow: visible; /* ensure shadows are visible */
+}
+
+/* Secondary paragraph spacing */
+.secondP {
+    margin-top: 2rem;
+}
+
+/* Left profile section */
+.leftProfile {
+    flex: 2;
+}
+
+.leftProfile h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Right profile section with glassmorphism and light blue shadow */
+.rightProfile {
+    flex: 1;
+    background: rgba(173, 216, 230, 0.2); /* light blue translucent */
+    border-radius: 16px;
+    backdrop-filter: blur(10px);           /* glass effect */
+    -webkit-backdrop-filter: blur(10px);   /* Safari support */
+    border: 1px solid rgba(173, 216, 230, 0.3);
+    box-shadow: 0 8px 32px rgba(173, 216, 230, 0.4); /* soft blue glow */
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for right profile */
+.rightProfile:hover {
+    box-shadow: 0 12px 48px rgba(173, 216, 230, 0.5); /* stronger glow on hover */
+}
+
+/* Image inside right profile */
+.rightProfile img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+
+
+
+.buttonMe{
+    background:rgba(173, 216, 230, 0.4);
+    border:none;
+    outline:none;
+    margin-top:1rem;
+    padding:.5rem;
+    border-radius:8px;
+    font-weight:700;
+    color:gray;
+
+}
