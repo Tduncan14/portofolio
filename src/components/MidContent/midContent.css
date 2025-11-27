@@ -17,6 +17,8 @@
 
 .MoreTechnology img{
     width:100%;
+    max-width:200px;
+    align-self:center;
 }
 
 .MoreTechnology > div {
@@ -26,9 +28,19 @@
     text-align:center;
 }
 
-/* this is the projects area */
+.MoreTechnology h1{
+    color:rgba(173, 216, 230, 0.9);
+    font-size:clamp(12px,25px,28px);
+}
 
+/* this is the projects area */
 
 .Projects{
     text-align:center
+}
+
+.Projects h1{
+    margin-top:5rem;
+    color:rgba(173, 216, 230, 0.9);
+    font-size:clamp(12px,25px,28px);
 }
