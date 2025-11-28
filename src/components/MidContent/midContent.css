@@ -7,12 +7,74 @@
     padding-right:4rem; */
 }
 
+.MoreTechnology , .ProjectTechnology{
+    display:flex;
+    justify-content:space-around;
+    margin-top:4rem;
+    gap:30px;
+}
+
+.MoreTechnology img , .ProjectTechnology img{
+    width:100%;
+    max-width:200px;
+    align-self:center;
+}
+
+.MoreTechnology > div {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+.MoreTechnology h1{
+    color:rgba(173, 216, 230, 0.9);
+    font-size:clamp(12px,25px,28px);
+}
+
+/* this is the projects area */
+
+.Projects{
+    text-align:center
+}
+
+.Projects h1{
+    margin-top:5rem;
+    color:rgba(173, 216, 230, 0.9);
+    font-size:clamp(12px,25px,28px);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 899px) {
+    /* Container for profile sections */
+    
+.MidContent{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    /* padding-left:4rem;
+    padding-right:4rem; */
+}
+
 .MoreTechnology{
     display:flex;
     justify-content:space-around;
-
+    flex-direction:column;
     margin-top:4rem;
     gap:30px;
+}
+
+
+.MoreTechnology h1{
+    margin-bottom:.5rem;
 }
 
 .MoreTechnology img{
@@ -44,3 +106,18 @@
     color:rgba(173, 216, 230, 0.9);
     font-size:clamp(12px,25px,28px);
 }
+
+#projectsTechnology{
+    display:flex;
+}
+
+
+
+
+
+}
+
+/* DESKTOP —
+
+/* DESKTOP — 900px and up */
+
