@@ -20,3 +20,23 @@
     align-self:center;
     color:lightblue;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    .header{
+        flex-direction:column-reverse;
+    }
+
+    .logo{
+        margin-bottom:1rem;
+    }
+}

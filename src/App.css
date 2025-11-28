@@ -13,3 +13,7 @@
   height:fit-content;
   min-height:100%;
 }
+
+.appParent{
+  overflow-x:hidden;
+}

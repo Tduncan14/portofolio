@@ -247,4 +247,21 @@
     overflow: visible; /* ensure shadows are visible */
 }
 
+.buttonMe{
+    background:rgba(173, 216, 230, 0.4);
+    border:none;
+    outline:none;
+    margin-top:1rem;
+    padding:.5rem;
+    border-radius:8px;
+    font-weight:700;
+    color:gray;
+
+}
+
+
+.leftName{
+    color:rgba(173, 216, 230, 0.9);
+}
+
 }
