@@ -13,7 +13,14 @@
 }
 .nav li{
     list-style-type:none;
-    
+    transition:transform,3s,ease-in;
+
+}
+
+.nav li:hover{
+    cursor:pointer;
+    color:lightblue;
+    transform:scale(1.4);
 }
 
 .logo{
@@ -21,7 +28,13 @@
     color:lightblue;
 }
 
+.logoLink{
+    color:lightblue;
+}
 
+.logo:active{
+    color:lightblue;
+}
 
 
 
@@ -38,5 +51,11 @@
 
     .logo{
         margin-bottom:1rem;
+    }
+
+    .nav{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
     }
 }

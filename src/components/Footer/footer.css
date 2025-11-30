@@ -3,4 +3,53 @@
     padding:4rem;
     margin-top:8rem;
     width:100%;
+    color:white;
 }
+
+.foot{
+    display:flex;
+    justify-content: space-between;
+    gap:50px;
+    align-items:center;
+}
+
+.logoLinks{
+    color:lightblue;
+    padding-right:4rem;
+}
+
+
+@media(max-width:500px){
+
+    .foot{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;   /* ADD THIS */
+    }
+
+    .logoFoot{
+        display:flex;
+        justify-content:center;
+    }
+
+    .logoLinks{
+        display:flex;
+        justify-content:center;
+        align-items:center; 
+        padding:0;          /* optional: remove extra spacing */
+    }
+
+    .logoLinks svg{
+        width:100%;         /* optional */
+        max-width:80px;     /* optional size cap */
+        margin:0 auto;      /* THIS centers it */
+        display:block;  
+    /* also required for margin:auto to work */
+    }
+}
+
+
+   
+
+
+
